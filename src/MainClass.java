@@ -15,7 +15,7 @@ public class MainClass {
         //nombre del usuario
         userName = scanner.next();
         //número de usuario
-        System.out.print(userName + ", intente adivinar el número entre 1 y 10, eliga un número: ");
+        System.out.print(userName + ", intente adivinar el número entre 1 y 100, eliga un número: ");
         userNumber = scanner.nextInt();
 
         //instancia de objeto numero secreto

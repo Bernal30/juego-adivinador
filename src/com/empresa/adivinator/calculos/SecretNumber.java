@@ -6,7 +6,7 @@ public class SecretNumber {
     Random random = new Random();
 
     //generar número pseudoaleatorio entre 1 y 100
-    private final int randomNumber = (int) random.nextFloat(10) + 1;
+    private final int randomNumber = (int) random.nextFloat(100) + 1;
 
     public int getRandomNumber() {
         return randomNumber;
